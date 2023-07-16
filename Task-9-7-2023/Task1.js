@@ -1,5 +1,6 @@
 /*
-
+let x = 250 ;
+create variable Calculate the value of zakat for x ,If you know the percentage of zakat = 2.5 %; 
 */
 
 let x = 250;
@@ -54,6 +55,7 @@ const Favorites = {
 };
 console.log(Favorites);
 
+
 /*
 4
 Create a Variable to return the first element in an array 
@@ -61,9 +63,12 @@ Ex: firstOfArray([1,4,5]) => 1
 Ex: firstOfArray(["t","u","g","x"]) => "t"
 */
 
-const Name = ["rama", "lena", "rania", "razan"];
-const firstElement = Name[0];
-console.log("first elemnt of array is " + firstElement);
+let arrayy = [1,4,5];
+console.log (arrayy [0]);
+
+// const Name = ["rama", "lena", "rania", "razan"];
+// const firstElement = Name[0];
+// console.log("first elemnt of array is " + firstElement);
 
 
 /*
@@ -73,6 +78,8 @@ Create a Variable to return the lastOfArray element in an array
 Ex: lastOfArray([1,4,5]) => 5
 Ex: lastOfArray(["t","u","g","x"]) => "x"
 */
+
+
 const girls = ["rama", "lena", "rania", "razan"];
 const lastElement = girls[(girls.length)-1];
 console.log("first elemnt of array is " + lastElement);
@@ -83,17 +90,19 @@ Using console make this array to be like this one (push, unshift, shift, pop)
 var array = [0,5,7,9]
 => [1,3,4,6,8,9,10]
 */
-const array = [0, 5, 7, 9]
-array.push(10)
-array.shift()
-array.shift()
-array.shift()
-array.unshift(8) 
-array.unshift(6)
-array.unshift(4)
-array.unshift(3)
-array.unshift(1)
-console.log(array)
+
+var array = [0,5,7,9];
+array.push (10);
+array.shift ();
+array.shift ();
+array.shift ();
+array.unshift(8);
+array.unshift(6);
+array.unshift(4);
+array.unshift(3);
+array.unshift(1);
+console.log (array);
+
 
 /*
 7
@@ -123,6 +132,9 @@ Sample Output : -4,-3,1,2,3,5,6,7,8
 // var arr1 = [-3, 8, 7, 6, 5, -4, 3, 2, 1];
 // arr1.sort((a, b) => a - b);
 // console.log(arr1);
+
+// var arr1 = [ -3, 8, 7, 6, 5, -4, 3, 2, 1 ];
+// console.log (arr1.sort());
 
 var arr = [-3, 8, 7, 6, 5, -4, 3, 2, 1];
 //arr.sort(); -> -3,-4,1,2,3,5,6,7,8 

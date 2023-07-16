@@ -29,16 +29,18 @@ for ( i = 0; i < arr.length; i++) {
 
 */
 
-const arr2=[1,2,3,4,5,6,7,8];
-console.log(arr2[0]);
-console.log(arr2[0],arr2[1]);
-console.log(arr2[0],arr2[1],arr2[2]);
-console.log(arr2[0],arr2[1],arr2[2],arr2[3]);
-console.log(arr2[0],arr2[1],arr2[2],arr2[3]);
-console.log(arr2[0],arr2[1],arr2[2],arr2[3],arr2[4]);
-console.log(arr2[0],arr2[1],arr2[2],arr2[3],arr2[4],arr2[5]);
-console.log(arr2[0],arr2[1],arr2[2],arr2[3],arr2[4],arr2[5],arr2[6]);
-console.log(arr2[0],arr2[1],arr2[2],arr2[3],arr2[4],arr2[5],arr2[6],arr2[7]);
+let k = " ";
+for (let i = 1; i <= 8; i++ ) {
+   for (let j = 1 ; j < i ; j++) {
+      k += j + " ";
+   }
+  k += "\n";
+}
+console.log (k)
+
+console.log("___________________");
+
+
 
  /* 
  Check if a string contains the letter “y”. Print “yes” if it does and “no” if it does not.
@@ -46,9 +48,12 @@ let x = "don’t know why"
 
 */
 
-let x = "dont know why";
+let x = "don't know why";
 let result = x.includes("y");
 if(result)
 console.log("yes");
 else
 console.log("no");
+
+
+

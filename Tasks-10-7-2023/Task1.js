@@ -34,38 +34,37 @@ Output : The sign is - */
 Sample numbers : 0, -1, 4 
 Output : 4, 0, -1 */
 /******* Start Your Code *********/
-let a2 = 0;
-let b2 = -1;
-let c2 = 4 ;
-let temp1 ;
-let temp2;
-let temp3;
 
-if(a2>b2 && a2>c2)
- {
-     temp1 = a2 ;
-     if(b2>c2) 
-     temp2 =b2 ; 
-     temp3 = c2 ;    
-    }
-if(b2>a2 && b2>c2)
-{
-    temp1 = b2 ;
-    if(a2>c2) 
-     temp2 =a2 ; 
-    temp3 = c2 ;    
-       
-}  
-if(c2>a2 && c2>b2)
-{
-    temp1 = c2 ;
-    if(a2>b2) 
-     temp2 =a2 ; 
-    temp3 = b2 ;    
-       
-}     
+let a = 0;
+let b = -1;
+let c = 4;
 
-window.alert(`${temp1} , ${temp2} , ${temp3}`);
+if ( a>b && a>c){
+  if (b>c) {
+    console.log (a,b,c);
+  }
+  else {
+    console.log (a,c,b);
+  }
+}
+else if ( b>a && b>c) {
+  if (a>c) {
+    console.log (b,a,c);
+  }
+  else {
+    console.log (b,c,a);
+  }
+}
+else {
+  if (a>b) {
+    console.log (c,a,b);
+  }
+  else {
+    console.log (c,b,a);
+  }
+}
+
+
 
   
  /******* End Your Code ********* */
@@ -103,8 +102,8 @@ else {
 
  /* 5.Write the if statement to display "Hello World" if x is greater than y, otherwise alert "Goodbye".*/
 /******* Start Your Code *********/
-  let x = 1;
-  let y = 2;
+  let x = prompt ("Enter X Value");
+  let y = prompt ("Enter Y Value");
 
   if ( x>y ) {
     window.alert ("Hello World");
