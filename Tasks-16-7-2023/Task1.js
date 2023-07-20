@@ -1,15 +1,20 @@
 // get element
 let color = document.getElementById ("colorPicker");
 
-//craete function to do on event
-function setcolor() {
-    document.body.style.background = color.value;
-    sessionStorage.setItem ("color", color.value) ;
-
+color.oninput = function (){
+    document.body.style.background = color.value 
+    sessionStorage.setItem ("color", color.value)
 }
 
-//create event
-color.addEventListener ("input", setcolor);
+//craete function to do on event
+// function setcolor() {
+//     document.body.style.background = color.value;
+//     sessionStorage.setItem ("color", color.value) ;
+
+// }
+
+// //create event
+// color.addEventListener ("input", setcolor);
 
 
 
