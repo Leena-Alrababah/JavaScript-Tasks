@@ -1,90 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <style>
-        #button {
-            background-color: rgb(237, 9, 9);
-            color: aliceblue;
-            border: none;
-            margin: 20px;
-            padding: 4px;
-            font-weight: bold;
-            border-radius: 3px;
-            cursor: pointer;
-           }
-
-        #tableContainer {
-            width: 80%;
-            margin: auto;
-        }
-
         table {
-            width: 100%;
             text-align: center;
-            margin: 10px 0;
-            background-color: antiquewhite;
         }
-
-        td, th {
-            padding: 10px;
-        }
-
-        th {
-            text-transform: uppercase;
-        }
-
         
     </style>
-</head>
-<body>
-
-    <button id="button">Load Data</button>
-
-
-    <div id="tableContainer">
-       <table>
-
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Major</th>
-                <th>University</th>
-                <th>Image</th>
-            </tr>
+  </head>
+  <body>
+    <button id="button">Show</button>
+    <table class="table" >
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Major</th>
+            <th scope="col">University</th>
+            <th scope="col">Image</th>
+          </tr>
         </thead>
 
-        <tbody>
-            <tr>
-                <td>Leena</td>
-                <td>23</td>
-                <td>Tra</td>
-                <td>Yarmouk</td>
-                <!-- <td><img src="./Images/leena.jpg" alt="" width="15%" height="100px"></td> -->
-            </tr>
-
-            <tr>
-                <td>Leena</td>
-                <td>23</td>
-                <td>Tra</td>
-                <td>Yarmouk</td>
-                <!-- <td><img src="./Images/leena.jpg" alt=""width="15%" height="100px"></td> -->
-            </tr>
-
-            <tr>
-                <td>Leena</td>
-                <td>23</td>
-                <td>Tra</td>
-                <td>Yarmouk</td>
-                <!-- <td><img src="./Images/leena.jpg" alt=""width="15%" height="100px"></td> -->
-            </tr>
+        <tbody id="tbody">
+           <!-- <tr> 
+            <td id="name"></td>
+            <td id="age"></td>
+            <td id="magor"></td>
+            <td id="uni"></td>
+            <td id="image"></td>
+          </tr> -->
+          <!-- <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>  -->
         </tbody>
-       </table> 
-    </div>
-
-    <!-- <script src="./Task.js"></script> -->
-</body>
+      </table>
+      
+      
+      </table>
+      
+      
+      <script src="./Task2.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>

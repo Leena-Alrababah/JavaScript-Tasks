@@ -9,7 +9,7 @@ async function Leena() {
 
 
 botton.onclick = function () {
-  // const httjs =JSON.parse(httt.responseText);
+  // const httjs =JSON.parse (httt.responseText);
   for (let i = 0; i < 5; i++) {
     
     myData += `
@@ -20,7 +20,7 @@ botton.onclick = function () {
    <td>${data[i].full_name}</td>
 
  </tr>
- <br>`;
+ `;
   }
   body1.innerHTML = myData;
 };
